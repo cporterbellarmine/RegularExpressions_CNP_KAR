@@ -41,6 +41,15 @@ public class TextProcessor {
         String regexPattern = sc.nextLine();
 
         new TextProcessor(fileName, regexPattern);
+
+        /**
+         * Regex Patterns:
+         * 1) (\ba\b|\ban\b|\bthe\b)
+         * 2) (?:Mina Harker|Mrs\W\sHarker)
+         * 3) (.*\bTransylvania\b.*)
+         * 4) (?:\bto\s.\w+)
+         * 5) (\b(?!Helsing|Godalming)\b\w+ing\b)
+         */
     }
 
 }//end class
