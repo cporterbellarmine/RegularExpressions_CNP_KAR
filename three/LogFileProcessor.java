@@ -1,3 +1,5 @@
+package three;
+
 /**
  * This class searches a log file for unique and repeated IP Addresses and users
  * These values and their occurrences are stored in two different hashmaps
@@ -10,6 +12,7 @@
  * Compiler Project 3
  * Fall 2021
  */
+
 import java.util.*;
 import java.io.*;
 import java.util.regex.*;

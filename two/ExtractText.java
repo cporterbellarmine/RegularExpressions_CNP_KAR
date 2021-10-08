@@ -1,3 +1,5 @@
+package two;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.*;
@@ -7,6 +9,7 @@ import java.util.Scanner;
 import org.apache.pdfbox.*;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
+
 /**
  * This class extracts the text from Bellarmine's PDF schedule and finds the course number and title, the open/closed status of the
  * course and the total seats/seats taken, and the number of courses for each course topic using regex queries. The results
